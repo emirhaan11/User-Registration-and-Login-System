@@ -1,0 +1,6 @@
+tk
+pillow
+sqlite3
+python-dotenv
+smtplib
+email

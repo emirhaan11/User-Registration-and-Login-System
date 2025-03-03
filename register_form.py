@@ -113,7 +113,7 @@ def registraiton_form(main_window):
         else:
             button_save.config(state="disabled")
     
-    def resim_yukle():
+    def upload_image():
         global img_data
         file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.jpg;*.png;*.jpeg;*.gif")])
         
@@ -237,7 +237,7 @@ def registraiton_form(main_window):
     photo = PhotoImage(file="Profile.png")
     photoResized = photo.subsample(6, 6)
 
-    button_image = Button(root, text="Upload", compound="top", relief="flat", font=("Arial 12 bold"), image=photoResized, command=resim_yukle)
+    button_image = Button(root, text="Upload", compound="top", relief="flat", font=("Arial 12 bold"), image=photoResized, command=upload_image)
     button_image.place(x=415, y=5, width=150, height=175)
     
     button_return = Button(root, text="RETURN", relief="flat", font=("Arial 12 bold"), bg="red", width=12, height=1, command=back)

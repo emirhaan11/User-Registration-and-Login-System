@@ -19,8 +19,8 @@ Make sure you have Python installed on your system. You can download it from [py
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-username/user-login-system.git
-cd user-login-system
+git clone https://github.com/emirhaan11/User-Registration-and-Login-System.git
+cd User-Registration-and-Login-System
 ```
 
 ### Install Required Packages
